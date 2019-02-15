@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SQL_Timed_Service
+namespace STS
 {
     class Program
     {
