@@ -23,6 +23,7 @@ namespace STS
             Console.WriteLine("STS Menu");
             Console.WriteLine();
             Console.WriteLine("1. Show configuration");
+            Console.WriteLine("2. Create configuration");
             Console.WriteLine("2. Load configuration");
             Console.WriteLine("3. Edit configuration");
             Console.Write("Select an option: ");
@@ -31,7 +32,22 @@ namespace STS
             if (!int.TryParse(Console.ReadLine(), out selectedOption))
             {
                 DisplayError("Seems like an error occurred! Check the error logs for more information");
-
+            }
+            else
+            {
+                switch (selectedOption)
+                {
+                    case 1:
+                        break;
+                    case 2:
+                        break;
+                    case 3:
+                        break;
+                    case 4:
+                        break;
+                    default:
+                        break;
+                }
             }
 
         }
